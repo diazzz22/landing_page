@@ -1,0 +1,32 @@
+body, header{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    background-color: #1f2937;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.nav {
+    padding-right: 5%;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+h2{
+    color: #F9FAF8;
+    margin-right: auto;
+}
+a {
+    text-decoration: none;
+}
+a:link {
+    color: #E5E7EB;
+}
+a:visited {
+    color: #E5E7EB;
+}
