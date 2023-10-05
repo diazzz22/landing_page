@@ -8,8 +8,19 @@ h1 {
 }
 #container_header{
     padding-top: 5%;
-
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
+#image_header{
+
+    background-color: #9c9ea1;
+    padding-top: 5%;
+    margin-right: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
 #secondary-text{
     color: #E5E7EB;
 }
@@ -27,6 +38,7 @@ header {
     background-color: #1f2937;
     padding-left: 15%;
     padding-right: 15%;
+    padding-bottom: 5%;
 }
 .nav {
     padding-right: 5%;
@@ -48,4 +60,12 @@ a:link {
 }
 a:visited {
     color: #E5E7EB;
+}
+/*1section*/
+
+#info {
+    color: #1f2937;
+    text-align: center;
+
+
 }
