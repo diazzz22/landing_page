@@ -1,10 +1,29 @@
-body, header{
+body {
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', arial;
 }
+h1 {
+    color: #F9FAF8;
+}
+#container_header{
+    padding-top: 5%;
 
+}
+#secondary-text{
+    color: #E5E7EB;
+}
+button {
+    background-color: #3882F6;
+    color: #FFF;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 7px;
+}
 header {
-    width: 100%;
+    margin: 0;
+    padding: 0;
+    width: 75%;
     background-color: #1f2937;
     padding-left: 15%;
     padding-right: 15%;
