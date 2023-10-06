@@ -66,6 +66,48 @@ a:visited {
 #info {
     color: #1f2937;
     text-align: center;
+    font-weight: bold;
+    font-size: 36px;
 
-
+}
+#container_img {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: 75%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+    gap: 8px;
+}
+.img_and_text{
+    margin-right: 2,5%;
+    margin-left: 2.5%;
+}
+.img {
+    padding: 5%;
+    border: 3px solid #3882F6;
+    width: 85%;
+    height: 85%;
+    border-radius: 15px;
+    
+}
+.text {
+    color: #1f2937;
+}
+#container_testimonial{
+    margin-top: 5%;
+    padding: 5%;
+    background-color: #9c9ea1;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+#testimonial{
+    font-style: italic;
+    font-size: 26px;
+    color: #1f2937;
+}
+#name{
+    
 }
