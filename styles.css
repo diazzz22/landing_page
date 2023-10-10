@@ -97,17 +97,30 @@ a:visited {
 }
 #container_testimonial{
     margin-top: 5%;
-    padding: 5%;
+    padding-top: 5%;
     background-color: #9c9ea1;
-    display: flex;
-    align-content: center;
-    justify-content: center;
+    width: 75%;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 2.5%;
 }
 #testimonial{
     font-style: italic;
     font-size: 26px;
     color: #1f2937;
+    display: flex;
+    justify-content: center;
 }
 #name{
-    
+    padding-left: 25%;
+    display: flex;
+    justify-content: center;
+    color: #1f2937;
+    font-weight: bold;
+}
+
+#call_to_action{
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
 }
